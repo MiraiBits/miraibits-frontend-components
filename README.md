@@ -1,4 +1,3 @@
-// ...existing code...
 # miraibits-frontend-components
 
 Lightweight collection of UI pieces and product assets used by the Miraibits frontend projects.
