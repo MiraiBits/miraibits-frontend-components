@@ -5,7 +5,7 @@
 
 ## Work Completed
 
-We have successfully generated and placed images for **19 products** as of 2025-12-15.
+We have successfully generated and placed images for **29 products**.
 
 ### 1. Initial Setup
 - Created and checked out branch `test/gemini-image`.
@@ -41,24 +41,35 @@ The following products have fully generated assets (`1.png` and `2.png`):
 - `0ohm-18w-resistor-pack-smd-0805-1-approx-40pcs`
 - `1-28-inch-240x240-round-tft-lcd-display-module-rgb-3-3v`
 
+**Batch 4 (Component List 20-29):**
+- `1-2k-12w-resistor-pack-carbon-film-tht-5-approx-20pcs`
+- `1-2k-12w-resistor-pack-carbon-film-tht-5-approx-500pcs`
+- `1-2k-14w-resistor-pack-carbon-film-tht-5-approx-1000pcs`
+- `1-2k-14w-resistor-pack-carbon-film-tht-5-approx-40pcs`
+- `1-2k-18w-resistor-pack-smd-0805-1-approx-40pcs`
+- `1-2k-1w-resistor-pack-carbon-film-tht-5-approx-10pcs`
+- `1-2m-12w-resistor-pack-carbon-film-tht-5-approx-20pcs`
+- `1-2m-12w-resistor-pack-carbon-film-tht-5-approx-500pcs`
+- `1-2m-14w-resistor-pack-carbon-film-tht-5-approx-1000pcs`
+- `1-2m-14w-resistor-pack-carbon-film-tht-5-approx-40pcs`
+
 ## Current Status
-- **Git State:** All images for the products listed above are generated and staged/committed to the branch.
-- **Blocker:** Hit API Rate Limit (Quota Exhausted) during the generation of the 20th item.
+- **Git State:** Images for batches 1-4 are generated. Changes for Batch 4 pending commit.
+- **Progress:** Moving to generate Batch 5.
 
 ## Planning & Todo
 
 ### Immediate Next Steps
-1. [ ] **Wait for Quota Reset:** Resume generation once the API limit resets (approx. 4 hours from last attempt).
-2. [ ] **Complete Item 20:** Generate images for `1-2k-12w-resistor-pack-carbon-film-tht-5-approx-20pcs`.
-3. [ ] **Verify & Commit:** Ensure all new images are correctly staged and committed.
+1. [x] **Wait for Quota Reset:** Resumed work.
+2. [x] **Complete Item 20:** Done.
+3. [ ] **Complete remaining items:** Generate images for product items 30+.
+4. [ ] **Verify & Commit:** Commit batches incrementally.
 
 ### Future/Remaining Work
-- Continue generating images for the rest of the product list (items 21+ from the user's list inside `products/`).
-- Audit generated images for visual accuracy (e.g., ensuring "Blue/Yellow" OLEDs actually show two colors).
+- Continue generating images for the rest of the product list.
 - Push branch `test/gemini-image` to remote.
 
-
-```bash
+___```bash
 Please generate the images for the folloing items, Please use the slug name to generate the required images, create atleast 2 of them and have the naming 1.png etc 
 
 DO it in a new branch called test/gemini-image 
