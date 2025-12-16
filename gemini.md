@@ -5,7 +5,7 @@
 
 ## Work Completed
 
-We have successfully generated and placed images for **40 products**.
+We have successfully generated and placed images for **50 products**.
 
 ### 1. Initial Setup
 - Created and checked out branch `test/gemini-image`.
@@ -53,7 +53,7 @@ The following products have fully generated assets (`1.png` and `2.png`):
 - `1-2m-14w-resistor-pack-carbon-film-tht-5-approx-1000pcs`
 - `1-2m-14w-resistor-pack-carbon-film-tht-5-approx-40pcs`
 
-**Batch 5 (Component List 30-40):**
+**Batch 5 (Component List 30-39):**
 - `1-2m-18w-resistor-pack-smd-0805-1-approx-40pcs`
 - `1-2m-1w-resistor-pack-carbon-film-tht-5-approx-10pcs`
 - `1-2ohm-14w-resistor-pack-carbon-film-tht-5-approx-40pcs`
@@ -64,22 +64,29 @@ The following products have fully generated assets (`1.png` and `2.png`):
 - `1-2v-40mah-rechargeable-ni-mh-battery-button-cell-pcb-m`
 - `1-2v-4300mah-aaa-rechargeable-battery-4pcs`
 - `1-2v-4600mah-aa-battery-sony-2pcs-good-quality`
+
+**Batch 6 (Component List 40-50):**
+- `1-2v-4600mah-aa-rechargeable-battery-4pcs`
+- `1-3-inch-128x64-oled-display-module-white-i2c-iic`
+- `1-44-inch-128x128-spi-tft-lcd-display-module`
+- `1-5-inch-128x128-oled-shield-screen-module-blue-yellow-`
 - `1-5-inch-128x128-oled-shield-screen-module-white-4-pin-`
 - `1-5-small-tpr-swivel-silent-caster-wheel`
 - `1-55v-ag10-lr1130-389-g10-alkaline-battery-normal`
 - `1-5k-12w-resistor-pack-carbon-film-tht-5-approx-20pcs`
 - `1-5k-12w-resistor-pack-carbon-film-tht-5-approx-500pcs`
 - `1-5k-14w-resistor-pack-carbon-film-tht-5-approx-1000pcs`
+- `1-5k-14w-resistor-pack-carbon-film-tht-5-approx-40pcs`
 
 ### Immediate Next Steps
 1. [x] **Wait for Quota Reset:** Resumed work.
 2. [x] **Complete Item 20-39:** Done.
-3. [x] **Complete Item 40-49:** Done (Batch 6).
-4. [ ] **Complete remaining items:** Generate images for product items 50+.
+3. [x] **Complete Item 40-50:** Done (Batch 6).
+4. [ ] **Complete remaining items:** Generate images for product items 51+.
 5. [ ] **Verify & Commit:** Commit batches incrementally.
 
 ## Current Status
-- **Git State:** Images for batches 1-6 are generated. Changes for Batch 6 pending commit.
+- **Git State:** Images for batches 1-6 generated. Changes for Batch 6 pending commit.
 - **Progress:** Moving to generate Batch 7.
 
 ### Future/Remaining Work
