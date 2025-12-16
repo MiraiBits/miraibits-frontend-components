@@ -82,13 +82,15 @@ The following products have fully generated assets (`1.png` and `2.png`):
 1. [x] **Wait for Quota Reset:** Resumed work.
 2. [x] **Complete Item 20-39:** Done.
 3. [x] **Complete Item 40-50:** Done (Batch 6).
-4. [ ] **Complete remaining items:** Generate images for product items 51+.
+4. [ ] **Complete remaining items:** Generate images for product items 51+ (Batch 7).
+   - *Blocked by API Rate Limit. Retry in ~4h 43m.*
 5. [ ] **Verify & Commit:** Commit batches incrementally.
 
 ## Current Status
-- **Git State:** Images for batches 1-6 generated. Changes for Batch 6 pending commit.
-- **Progress:** Moving to generate Batch 7.
+- **Git State:** Images for batches 1-6 (Items 1-50) are generated and committed.
+- **Progress:** Attempted to start Batch 7 but hit rate limit.
 
 ### Future/Remaining Work
 - Continue generating images for the rest of the product list.
 - Push branch `test/gemini-image` to remote.
+
