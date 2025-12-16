@@ -5,7 +5,7 @@
 
 ## Work Completed
 
-We have successfully generated and placed images for **49 products**.
+We have successfully generated and placed images for **40 products**.
 
 ### 1. Initial Setup
 - Created and checked out branch `test/gemini-image`.
@@ -53,7 +53,7 @@ The following products have fully generated assets (`1.png` and `2.png`):
 - `1-2m-14w-resistor-pack-carbon-film-tht-5-approx-1000pcs`
 - `1-2m-14w-resistor-pack-carbon-film-tht-5-approx-40pcs`
 
-**Batch 5 (Items 30-39):**
+**Batch 5 (Component List 30-40):**
 - `1-2m-18w-resistor-pack-smd-0805-1-approx-40pcs`
 - `1-2m-1w-resistor-pack-carbon-film-tht-5-approx-10pcs`
 - `1-2ohm-14w-resistor-pack-carbon-film-tht-5-approx-40pcs`
@@ -64,12 +64,6 @@ The following products have fully generated assets (`1.png` and `2.png`):
 - `1-2v-40mah-rechargeable-ni-mh-battery-button-cell-pcb-m`
 - `1-2v-4300mah-aaa-rechargeable-battery-4pcs`
 - `1-2v-4600mah-aa-battery-sony-2pcs-good-quality`
-
-**Batch 6 (Item 40 + Items 41-49):**
-- `1-2v-4600mah-aa-rechargeable-battery-4pcs` (Completed)
-- `1-3-inch-128x64-oled-display-module-white-i2c-iic`
-- `1-44-inch-128x128-spi-tft-lcd-display-module`
-- `1-5-inch-128x128-oled-shield-screen-module-blue-yellow-`
 - `1-5-inch-128x128-oled-shield-screen-module-white-4-pin-`
 - `1-5-small-tpr-swivel-silent-caster-wheel`
 - `1-55v-ag10-lr1130-389-g10-alkaline-battery-normal`
