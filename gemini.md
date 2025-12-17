@@ -90,17 +90,31 @@ The following products have fully generated assets (`1.png` and `2.png`):
 - `1-5nf-25v-capacitor-pack-smd-0805-approx-40pcs`
 - `1-5nf-ceramic-capacitor-tht`
 
+**Batch 8 (Component List 61-70):**
+- `1-5ohm-12w-resistor-pack-carbon-film-tht-5-approx-20pcs`
+- `1-5ohm-12w-resistor-pack-carbon-film-tht-5-approx-500pc`
+- `1-5ohm-14w-resistor-pack-carbon-film-tht-5-approx-1000p`
+- `1-5ohm-14w-resistor-pack-carbon-film-tht-5-approx-40pcs`
+- `1-5ohm-1w-resistor-pack-carbon-film-tht-5-approx-10pcs`
+- `1-5uf-250v-non-polar-capacitor-tht`
+- `1-5v-aa-battery`
+- `1-5v-aa-battery-alkaline-2pcs-good-quality`
+- `1-5v-aa-battery-toshiba`
+- `1-5v-aaa-battery`
+
 ### Immediate Next Steps
 1. [x] **Wait for Quota Reset:** Resumed work.
 2. [x] **Complete Item 20-39:** Done.
 3. [x] **Complete Item 40-50:** Done (Batch 6).
 4. [x] **Complete Item 51-60:** Done (Batch 7).
 5. [ ] **Complete remaining items:** Generate images for product items 61+ (Batch 8).
+   - *Blocked by API Rate Limit. Retry in ~4h 48m.*
+   - Partial: Generated 1 image for `1-5ohm-12w-resistor-pack-carbon-film-tht-5-approx-20pcs`.
 6. [ ] **Verify & Commit:** Commit batches incrementally.
 
 ## Current Status
-- **Git State:** Images for batches 1-7 (Items 1-60) are generated. Changes for Batch 7 pending commit.
-- **Progress:** Moving to generate Batch 8.
+- **Git State:** Images for batches 1-7 (Items 1-60) are generated and committed. Item 61 partial.
+- **Progress:** Attempted to start Batch 8 but hit rate limit.
 
 ### Future/Remaining Work
 - Continue generating images for the rest of the product list.
